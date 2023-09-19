@@ -1,0 +1,9 @@
+@media (max-width: 1400px){
+    .button--pricing{
+        position: absolute;
+        left: 40px;
+        right: 40px;
+        bottom: 40px;
+        padding: 14px 89px;
+    }
+}
