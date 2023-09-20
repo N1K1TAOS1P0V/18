@@ -56,6 +56,9 @@
         margin: 0 auto;
         padding: 0px 20px;
     }
+    .hero--form__input {
+        width: 240px;
+    }
     .font--style__h2 {
         color: #151515;
         font-size: 28px;
