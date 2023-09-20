@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="reset.css">
 
-    <title>18</title>
+    <title>CRM 18</title>
     <link rel="shortcut icon" href="img/LogoBlack.svg" type="image/x-icon">
 </head>
 <body> 
@@ -26,9 +26,22 @@
                     <li class="menu__item"><a href="#faqs" class="font--style__18">FAQs</a></li>
                 </ul>
             </nav>
-            <div class="header--case__button">
+            <div class="header--case__button hidden--media">
                 <button class="button--login font--style__18"><span>Login</span></button>
                 <button class="button--singUp font--style__18__withe"><span>Sing Up</span></button>
+            </div>
+            <button class="header--case__button__media" id="btn--media--menu_open"><img src="img/menu--burger--img.svg" alt=""></button>
+            <div class="menu--media">
+                <div class="menu--media__heding">
+                    <img src="img/LogoBlack.svg" alt="">
+                    <button id="btn--media--menu_close"><img src="img/faqs--img--plus.svg" alt=""></button>
+                </div>
+                <ul class="menu--media__list">
+                    <li class="menu__item__media"><a href="#aboutUs" class="font--style__28">About us</a></li>
+                    <li class="menu__item__media"><a href="#work" class="font--style__28">How it works</a></li>
+                    <li class="menu__item__media"><a href="#pricing" class="font--style__28">Pricing</a></li>
+                    <li class="menu__item__media"><a href="#faqs" class="font--style__28">FAQs</a></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -217,11 +230,18 @@
                         <li class="footer--icons__social"><img src="img/social_yt.svg" alt=""></li>
                     </ul>
                     <p class="font--style__20">Want to recieve our awesome <br> stories?</p>
-                    <form action="" class="hero--form" id="form">
+                    <div class="form--media">
+                        <form action="" class="hero--form" id="form">
+                            <input type="email" placeholder="Enter your email" class="hero--form__input">
+                            <button class="button--singUp font--style__18 white"><span>Subcribe</span></button>
+                        </form>
+                        <span class="font--style__18">© 18 Design, all rights reserved.</span>
+                    </div>
+                    <!-- <form action="" class="hero--form" id="form">
                         <input type="email" placeholder="Enter your email" class="hero--form__input">
                         <button class="button--singUp font--style__18 white"><span>Subcribe</span></button>
                     </form>
-                    <span class="font--style__18">© 18 Design, all rights reserved.</span>
+                    <span class="font--style__18">© 18 Design, all rights reserved.</span> -->
                 </div>
                 <div class="footer--case__info">
                     <ul class="footer--list">

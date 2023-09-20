@@ -54,8 +54,16 @@ function scrollFunction() {
     }
 }
 
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
+// 
+document.querySelector('#btn--media--menu_open').addEventListener('click', function(){
+    document.querySelector('.menu--media').style.display = 'block';
+    document.querySelector('body').style.overflowY = 'hidden'
+});
+document.querySelector('#btn--media--menu_close').addEventListener('click', function(){
+    document.querySelector('.menu--media').style.display = 'none';
+    document.querySelector('body').style.overflowY = 'scroll'
+})

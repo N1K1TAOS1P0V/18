@@ -7,3 +7,118 @@
         padding: 14px 89px;
     }
 }
+@media (max-width: 1311px){
+    .pricing--card__item {
+        padding: 40px 20px;
+        width: 374px;
+        height: 674px;
+    }
+}
+@media (max-width: 1191px){
+    .pricing--card__item {
+        padding: 40px 12px;
+        width: 354px;
+        height: 694px;
+    }
+    .pricing h4 br{
+        display: none;
+    }
+}
+@media (max-width: 1025px){
+    .container{
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 0px 20px;
+    }
+    .pricing h4 br{
+        display: none;
+    }
+    .aboutUs--case, .works--case, .pricing--header, .pricing--card, .faqs--case, .footer--case, .hero--case {
+        display:inline-flex;
+        flex-direction: column;
+    }
+    .pricing--card{
+        display: block;
+        max-width: 354px;
+        margin: 0 auto;
+    }
+    .aboutUs--case img, .pricing--header img{
+        margin-top: 80px;
+        order: 2;
+    }
+    .aboutUs--case__info{
+        order: 1;
+    }
+}
+@media (max-width: 426px){
+    .container{
+        max-width: 460px;
+        margin: 0 auto;
+        padding: 0px 20px;
+    }
+    .font--style__h2 {
+        color: #151515;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -1.4px;
+    }
+    .font--style__h4 {
+        color: #151515;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -1.4px;
+    
+        margin-bottom: 35px;
+    }
+    .button--singUp {
+        padding: 12px 16px;
+    }
+    .header--case {
+        margin: 36px 0px 40px;
+    }
+    .hero--partners {
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    .hero--form, .works--list {
+        margin: 40px 0px 40px;
+    }
+    .aboutUs {
+        margin: 100px 0px;
+    }
+    .works--list__item {
+        display: flex;
+        align-items: start;
+        column-gap: 20px;
+    }
+    .works--list__item p{
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    .works, .pricing, .faqs {
+        margin-bottom: 100px;
+    }
+    .pricing--card__item {
+        padding: 40px 24px;
+        width: auto;
+    }
+    .pricing--card {
+        max-width: 425px;
+    }
+}
+@media (max-width: 850px){
+    .header--case__button__media{
+        display: block;
+    }
+    .hidden--media, .menu, .font--style__h2 br{
+        display: none;
+    }
+    .footer--case__info {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+}

@@ -84,10 +84,6 @@ body{
     justify-content: space-between;
     margin: 36px 0px 80px;
 }
-.header--case__button {
-    display: flex;
-    column-gap: 20px;
-}
 .button--login {
     padding: 12px 36px;
     transition: 0.5s;
@@ -106,10 +102,6 @@ body{
     color: #fff;
 }
 /* hero */
-.hero--case {
-    display: flex;
-    justify-content: space-between;
-}
 .hero--form {
     margin: 40px 0px 80px;
     display: flex;
@@ -128,7 +120,7 @@ body{
 .aboutUs{
     margin: 200px 0px ;
 }
-.aboutUs--case,.works--case, .pricing--header, .pricing--card, .faqs--case, .footer--case {
+.aboutUs--case,.works--case, .pricing--header, .pricing--card, .faqs--case, .footer--case,  .hero--case {
     display: flex;
     justify-content: space-between;
 }
@@ -142,7 +134,7 @@ body{
     display: grid;
     row-gap: 24px;
 }
-.aboutUs--list__item, .works--list__item {
+.aboutUs--list__item, .works--list__item, .header--case__button {
     display: flex;
     align-items: center;
     column-gap: 20px;
@@ -299,4 +291,30 @@ body{
     position: fixed;
     bottom: 70px;
     right: 70px;
+}
+.header--case__button__media, .menu--media{
+    display: none;
+}
+.menu--media{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 510px;
+    z-index: 1;
+    padding: 0px 20px;
+    box-shadow: 0px 8435px 6px 8360px rgba(0, 0, 0, 0.596);
+}
+.menu--media__list{
+    display: grid;  
+    row-gap: 20px;
+}
+.menu--media__heding{
+    display: flex;
+    justify-content: space-between;
+    margin: 36px 00px 90px;
+}
+.menu--media__heding button img{
+    transform: rotate(45deg);
 }
